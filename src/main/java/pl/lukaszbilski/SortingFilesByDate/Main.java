@@ -19,7 +19,7 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
 
-        utils.creatingFolders();
+        utils.createFolders();
     }
 
     public static void main(String[] args) {
