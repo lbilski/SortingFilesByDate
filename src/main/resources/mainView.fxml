@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lukaszbilski.SortingFilesByDate.controllers.MainController">
+   <center>
+      <Button fx:id="sortButton" mnemonicParsing="false" onMouseClicked="#sorting" prefHeight="71.0" prefWidth="130.0" text="Sortuj" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
