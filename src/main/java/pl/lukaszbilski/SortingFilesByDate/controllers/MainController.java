@@ -18,8 +18,8 @@ public class MainController {
 
     public void sorting(){
         File[] listOfFiles = utils.getSourceFile().listFiles();
-
-        if (listOfFiles.length != 0) {
+        infoLabel.setText("Działam .... :-)");
+        if ((listOfFiles != null ? listOfFiles.length : 0) != 0) {
             for(File file:listOfFiles){
                 utils.moveFile(utils.returnMetada(file), file);
             }

@@ -35,7 +35,7 @@ public class Utils {
     }
 
     public String returnMetada(File input){
-        SimpleDateFormat formattedDate = new SimpleDateFormat("yyyy-MM-dd HH.mm.ss");
+        SimpleDateFormat formattedDate = new SimpleDateFormat("yyyy-MM-dd HH.mm");
         Metadata metadata;
         try {
             metadata = ImageMetadataReader.readMetadata(input);
@@ -44,7 +44,7 @@ public class Utils {
             return formattedDate.format(date);
 
         } catch (ImageProcessingException | IOException | NullPointerException e) {
-            return "0000-00-00 00.00.00";
+            return "0000-00-00 00.00";
         }
     }
 
@@ -61,7 +61,7 @@ public class Utils {
                 result.mkdir();
             }
 
-            renemaeAndMove(sourceFile.toString() + "\\" + file.getName(), result.toString() + "\\" + nameWithoutExtension + "(0)" + extensionOfFile);
+            renameAndMove(sourceFile.toString() + "\\" + file.getName(), result.toString() + "\\" + nameWithoutExtension + " (0)" + extensionOfFile);
 
         }else{
             result = new File(destinationFile.toString() + "\\" + input[0] + "\\" + months[Integer.parseInt(input[1])-1] + "\\" + input[2]);
@@ -70,25 +70,26 @@ public class Utils {
                 result.mkdirs();
             }
 
-            renemaeAndMove(sourceFile.toString() + "\\" + file.getName(), result.toString() + "\\" + dateOfFile + "(0)" + extensionOfFile);
+            renameAndMove(sourceFile.toString() + "\\" + file.getName(), result.toString() + "\\" + dateOfFile + " (0)" + extensionOfFile);
         }
     }
 
     //this method move file and reneme exist files because the camera take a photo with the same name after format card
-    private void renemaeAndMove(String pathFrom, String pathTo){
+    private void renameAndMove(String pathFrom, String pathTo){
 
         StringBuilder outputFileName = new StringBuilder();
         outputFileName.append(pathTo);
-        int extension = pathTo.lastIndexOf(".");
-        char counter = pathTo.charAt(extension-2);
+        int start = pathTo.lastIndexOf("(");
+        int stop = pathTo.lastIndexOf(")");
+        int counter = Integer.parseInt(pathTo.substring(start+1, stop));
 
         File file = new File(pathTo);
 
         while(file.exists()){
             outputFileName.setLength(0);
-            outputFileName.append(pathTo.substring(0,extension-2));
+            outputFileName.append(pathTo.substring(0,start+1));
             outputFileName.append(++counter);
-            outputFileName.append(pathTo.substring(extension-1));
+            outputFileName.append(pathTo.substring(stop));
             file = new File(String.valueOf(outputFileName));
         }
 
