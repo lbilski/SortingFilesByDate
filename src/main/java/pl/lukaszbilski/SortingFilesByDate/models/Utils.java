@@ -17,21 +17,20 @@ import java.util.TimeZone;
 
 public class Utils {
     private File sourceFile = new File("Do przesortowania");
-    private File destinationFile = new File("Przesortowane");
+    private File destinationFile = new File("");
     String [] months = {"Styczen", "Luty", "Marzec", "Kwiecien", "Maj", "Czerwiec", "Lipiec", "Sierpien", "Wrzesien", "Pazdziernik", "Listopad", "Grudzien"};
 
     public File getSourceFile() {
         return sourceFile;
     }
 
-    public File getDestinationFile() {
-        return destinationFile;
+    public void setDestinationFile(File destinationFile) {
+        this.destinationFile = destinationFile;
     }
 
     //Creating new folders with unsorted and sorted files
     public void createFolders(){
         sourceFile.mkdir();
-        destinationFile.mkdir();
     }
 
     public String returnMetada(File input){
@@ -64,7 +63,7 @@ public class Utils {
             renameAndMove(sourceFile.toString() + "\\" + file.getName(), result.toString() + "\\" + nameWithoutExtension + " (0)" + extensionOfFile);
 
         }else{
-            result = new File(destinationFile.toString() + "\\" + input[0] + "\\" + months[Integer.parseInt(input[1])-1] + "\\" + input[2]);
+            result = new File(destinationFile.toString() + "\\" + months[Integer.parseInt(input[1])-1] + "\\" + input[2]);
 
             if(!result.isDirectory()){
                 result.mkdirs();
@@ -99,5 +98,4 @@ public class Utils {
             e.printStackTrace();
         }
     }
-
 }
