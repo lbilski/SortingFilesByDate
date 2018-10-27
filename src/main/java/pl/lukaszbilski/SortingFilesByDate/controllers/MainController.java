@@ -47,6 +47,7 @@ public class MainController {
             infoLabel.setText("Folder \"" + utils.getSourceFile() + "\" jest pusty");
         }
 
-
+        pathToFolder.setText("");
+        sortButton.setDisable(true);
     }
 }
