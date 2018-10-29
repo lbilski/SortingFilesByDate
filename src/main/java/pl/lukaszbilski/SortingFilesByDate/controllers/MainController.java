@@ -31,23 +31,32 @@ public class MainController {
             utils.setDestinationFile(selectedDirectory);
             pathToFolder.setText(selectedDirectory.getAbsolutePath());
             sortButton.setDisable(false);
+            infoLabel.setText("");
         }
     }
 
     public void sorting(){
-        File[] listOfFiles = utils.getSourceFile().listFiles();
+        sort(utils.getSourceFile());
+
+        pathToFolder.setText("");
+        sortButton.setDisable(true);
+    }
+
+    private void sort(File file){
+        File[] listOfFiles = file.listFiles();
 
         if ((listOfFiles != null ? listOfFiles.length : 0) != 0) {
-            for(File file:listOfFiles){
-                utils.moveFile(utils.returnMetada(file), file);
-                infoLabel.setText(file.getName());
+            for(File result:listOfFiles){
+                if (result.isFile()) {
+                    utils.moveFile(utils.returnMetada(result), result);
+                }else if(result.isDirectory()){
+                    utils.setSourceFile(result);
+                    sort(new File(result.getAbsolutePath()));
+                }
             }
             infoLabel.setText("Mission completed :))");
         }else{
             infoLabel.setText("Folder \"" + utils.getSourceFile() + "\" jest pusty");
         }
-
-        pathToFolder.setText("");
-        sortButton.setDisable(true);
     }
 }

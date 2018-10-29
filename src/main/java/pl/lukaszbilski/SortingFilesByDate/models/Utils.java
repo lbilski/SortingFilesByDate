@@ -23,6 +23,9 @@ public class Utils {
     public File getSourceFile() {
         return sourceFile;
     }
+    public void setSourceFile(File sourceFile){
+        this.sourceFile = sourceFile;
+    }
 
     public void setDestinationFile(File destinationFile) {
         this.destinationFile = destinationFile;
@@ -91,11 +94,12 @@ public class Utils {
             outputFileName.append(pathTo.substring(stop));
             file = new File(String.valueOf(outputFileName));
         }
-
         try {
             Files.move(Paths.get(pathFrom), Paths.get(String.valueOf(outputFileName)));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+
 }
