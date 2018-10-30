@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mainView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/mainView.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="128">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,14 +90,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="536">
+              <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
               <folding>
-                <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-                <element signature="method#sorting#0;class#MainController#0" expanded="false" />
                 <element signature="method#sort#0;class#MainController#0" expanded="false" />
               </folding>
             </state>
@@ -107,19 +115,16 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="459">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
                 <element signature="e#806#807#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
                 <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+                <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
                 <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
               </folding>
             </state>
@@ -138,14 +143,16 @@
       </file>
       <file leaf-file-name="mainView.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -176,9 +183,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java" />
       </list>
     </option>
@@ -202,11 +209,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="SortingFilesByDate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SortingFilesByDate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -238,8 +240,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -298,7 +301,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,16 +503,16 @@
       <workItem from="1539970102713" duration="6536000" />
       <workItem from="1540030654729" duration="18896000" />
       <workItem from="1540124052642" duration="1759000" />
-      <workItem from="1540839627553" duration="5557000" />
+      <workItem from="1540839627553" duration="5697000" />
+      <workItem from="1540919734776" duration="1925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58691000" />
+    <option name="totallyTimeSpent" value="60756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -520,20 +522,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217484" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -558,7 +560,9 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -576,25 +580,24 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -627,11 +630,8 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -646,14 +646,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
@@ -661,8 +663,6 @@
         <state relative-caret-position="289">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -681,14 +681,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
@@ -696,8 +698,6 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -737,14 +737,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -759,8 +761,6 @@
         <state relative-caret-position="255">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -788,11 +788,8 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -815,22 +812,22 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java">
@@ -843,11 +840,8 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -870,8 +864,6 @@
         <state relative-caret-position="476">
           <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -886,14 +878,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java">
@@ -906,11 +900,8 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -933,8 +924,6 @@
         <state relative-caret-position="289">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -950,25 +939,24 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1001,11 +989,8 @@
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -1020,14 +1005,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
@@ -1035,8 +1022,6 @@
         <state relative-caret-position="289">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -1055,14 +1040,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <folding>
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
@@ -1070,8 +1057,6 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
@@ -1095,24 +1080,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mainView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
+            <marker date="1540921858619" expanded="true" signature="3224:3369" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1124,14 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1140,21 +1107,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/models/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#773#774#0" expanded="true" />
             <element signature="e#806#807#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
             <element signature="method#returnMetada#0;class#Utils#0" expanded="false" />
+            <element signature="method#moveFile#0;class#Utils#0" expanded="false" />
             <element signature="method#renameAndMove#0;class#Utils#0" expanded="false" />
           </folding>
         </state>
@@ -1162,11 +1146,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/lukaszbilski/SortingFilesByDate/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="536">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
           <folding>
-            <element signature="method#setDestinationPath#0;class#MainController#0" expanded="false" />
-            <element signature="method#sorting#0;class#MainController#0" expanded="false" />
             <element signature="method#sort#0;class#MainController#0" expanded="false" />
           </folding>
         </state>

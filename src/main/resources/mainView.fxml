@@ -14,9 +14,9 @@
     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" />
   </columnConstraints>
   <rowConstraints>
-    <RowConstraints maxHeight="192.0" minHeight="10.0" prefHeight="124.0" vgrow="SOMETIMES" />
-    <RowConstraints maxHeight="231.0" minHeight="0.0" prefHeight="61.0" valignment="CENTER" vgrow="SOMETIMES" />
-    <RowConstraints maxHeight="241.0" minHeight="10.0" prefHeight="130.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="193.0" minHeight="10.0" prefHeight="186.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="231.0" minHeight="0.0" prefHeight="48.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="241.0" minHeight="10.0" prefHeight="86.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
       <Button fx:id="sortButton" alignment="CENTER" contentDisplay="CENTER" disable="true" mnemonicParsing="false" onMouseClicked="#sorting" prefHeight="48.0" prefWidth="129.0" text="Sortuj" GridPane.rowIndex="1" />
@@ -31,20 +31,33 @@
                   <Insets bottom="10.0" />
                </VBox.margin>
             </Label>
-            <Label text="1. Wklej zdjęcia do przesortowania do folderu &quot;Do przesortowania&quot;" wrapText="true">
+            <Label text="1. Wybierz folder do przesortowania:">
                <VBox.margin>
-                  <Insets bottom="5.0" />
-               </VBox.margin>
-            </Label>
-            <Label text="2. Wybierz folder docelowy:">
-               <VBox.margin>
-                  <Insets bottom="5.0" />
+                  <Insets bottom="10.0" />
                </VBox.margin>
             </Label>
             <HBox focusTraversable="true" prefHeight="27.0" prefWidth="460.0">
                <children>
-                  <TextField fx:id="pathToFolder" editable="false" prefHeight="25.0" prefWidth="333.0" />
-                  <Button fx:id="chooseFolder" mnemonicParsing="false" onMouseClicked="#setDestinationPath" text="Wybierz folder">
+                  <TextField fx:id="sourcePath" editable="false" prefHeight="25.0" prefWidth="333.0" />
+                  <Button fx:id="chooseSourcePath" mnemonicParsing="false" onMouseClicked="#setSourcePath" text="Wybierz folder">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <Label text="2. Wybierz folder docelowy:">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <HBox focusTraversable="true" prefHeight="27.0" prefWidth="460.0">
+               <children>
+                  <TextField fx:id="destinationPath" editable="false" prefHeight="25.0" prefWidth="333.0" />
+                  <Button fx:id="chooseDestinyPath" disable="true" mnemonicParsing="false" onMouseClicked="#setDestinationPath" text="Wybierz folder">
                      <HBox.margin>
                         <Insets left="5.0" />
                      </HBox.margin>

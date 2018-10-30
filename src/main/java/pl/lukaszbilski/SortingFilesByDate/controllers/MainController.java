@@ -11,17 +11,29 @@ import java.io.File;
 
 public class MainController {
     @FXML
-    Button sortButton, chooseFolder;
+    Button sortButton, chooseSourcePath, chooseDestinyPath;
 
     @FXML
     Label infoLabel;
 
     @FXML
-    TextField pathToFolder;
+    TextField sourcePath, destinationPath;
 
 
 
     private Utils utils = new Utils();
+
+    public void setSourcePath(){
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        File selectedDirectory = directoryChooser.showDialog(null);
+
+        if(selectedDirectory != null){
+            utils.setSourceFile(selectedDirectory);
+            sourcePath.setText(selectedDirectory.getAbsolutePath());
+            chooseDestinyPath.setDisable(false);
+            infoLabel.setText("");
+        }
+    }
 
     public void setDestinationPath(){
         DirectoryChooser directoryChooser = new DirectoryChooser();
@@ -29,17 +41,18 @@ public class MainController {
 
         if(selectedDirectory != null){
             utils.setDestinationFile(selectedDirectory);
-            pathToFolder.setText(selectedDirectory.getAbsolutePath());
+            destinationPath.setText(selectedDirectory.getAbsolutePath());
             sortButton.setDisable(false);
-            infoLabel.setText("");
         }
     }
 
     public void sorting(){
         sort(utils.getSourceFile());
 
-        pathToFolder.setText("");
+        destinationPath.setText("");
+        sourcePath.setText("");
         sortButton.setDisable(true);
+        chooseDestinyPath.setDisable(true);
     }
 
     private void sort(File file){
