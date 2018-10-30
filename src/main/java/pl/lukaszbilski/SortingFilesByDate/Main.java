@@ -9,8 +9,6 @@ import pl.lukaszbilski.SortingFilesByDate.models.Utils;
 
 public class Main extends Application {
 
-    private Utils utils = new Utils();
-
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/mainView.fxml"));
@@ -18,8 +16,6 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 480, 320));
         primaryStage.setResizable(false);
         primaryStage.show();
-
-        utils.createFolders();
     }
 
     public static void main(String[] args) {

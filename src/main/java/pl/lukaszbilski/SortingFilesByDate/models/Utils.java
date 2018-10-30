@@ -31,11 +31,6 @@ public class Utils {
         this.destinationFile = destinationFile;
     }
 
-    //Creating new folders with unsorted and sorted files
-    public void createFolders(){
-        sourceFile.mkdir();
-    }
-
     public String returnMetada(File input){
         SimpleDateFormat formattedDate = new SimpleDateFormat("yyyy-MM-dd HH.mm");
         Metadata metadata;
