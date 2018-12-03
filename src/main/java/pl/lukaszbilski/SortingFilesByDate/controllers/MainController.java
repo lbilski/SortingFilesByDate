@@ -20,7 +20,6 @@ public class MainController {
     TextField sourcePath, destinationPath;
 
 
-
     private Utils utils = new Utils();
 
     public void setSourcePath(){
