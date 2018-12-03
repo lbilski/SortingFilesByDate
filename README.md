@@ -1,17 +1,17 @@
 ## SortingFilesByDate
-###General info
+### General info
 
 Application was created to help in my current job. Our team was wasting a lot of time sorting picuters. 
 This program simplifies the sorting process by cataloging photos on the date they were taken.
 
-###Technologies
+### Technologies
 
 * Java 8
 * JavaFX
 
 ![main window](https://drive.google.com/uc?export=view&id=1qHYhZ2R5K26EyQH1d1FhoV9rrQ0o82Ow)
 
-###How to use
+### How to use
 
 1. Choose the path of the directory to sort
 2. Select the destination folder
